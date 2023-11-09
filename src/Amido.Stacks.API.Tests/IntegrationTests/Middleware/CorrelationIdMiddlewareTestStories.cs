@@ -100,7 +100,9 @@ public class CorrelationIdMiddlewareTestStories
     [Theory, AutoData]
     public void CorrelationIdLogContextPropertyIsNotNullWhenAddedOnlyOnce(CorrelationIdMiddlewareTestSteps steps)
     {
-        //  Added to test issue where Correlation ID has NULL value:  See Line 26 of CorrelationIdMiddleware.cs
+        //  A previous issue in .Net Core 2.1 replaced the Correlation ID with a NULL value.
+        //  The work around fr this issue has been removed as that issue cannot be reproduced.
+        //  This test is in place to ensure it doesn't re-occur.
         this.Given(_   => steps.GivenTheConfigurationFileDoesNotHaveTheHeaderNameSet())
                 .And(_ => steps.GivenSerilogIsConfiguredToEnrichLogsWithCorrelationId())
             .When(_    => steps.WhenRequestIsSentToTheServer())
