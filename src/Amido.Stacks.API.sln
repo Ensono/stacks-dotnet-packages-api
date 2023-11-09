@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A122EAED-1BEA-4171-8B57-0DCB8FA0B769}"
 	ProjectSection(SolutionItems) = preProject
@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amido.Stacks.API", "Amido.Stacks.API\Amido.Stacks.API.csproj", "{78EA9F72-72DA-4F0C-A647-B315CF9DBD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amido.Stacks.API.Tests", "Amido.Stacks.API.Tests\Amido.Stacks.API.Tests.csproj", "{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,18 @@ Global
 		{78EA9F72-72DA-4F0C-A647-B315CF9DBD72}.Release|x64.Build.0 = Release|Any CPU
 		{78EA9F72-72DA-4F0C-A647-B315CF9DBD72}.Release|x86.ActiveCfg = Release|Any CPU
 		{78EA9F72-72DA-4F0C-A647-B315CF9DBD72}.Release|x86.Build.0 = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|x64.Build.0 = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4B072C7-1AF9-4ADE-A055-7C0E4257035C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
