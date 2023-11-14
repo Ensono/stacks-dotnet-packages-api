@@ -23,8 +23,6 @@ namespace Amido.Stacks.API.Middleware
         {
             var correlationId = GetOrSetCorrelationId(context);
 
-            //There is a bug in .Net Core 2.1+ that replaces CorrelationId by null, until fixed we will add attributes "twice"
-            using (LogContext.PushProperty("CorrelationId", correlationId.ToString()))
             using (LogContext.PushProperty(_options.HeaderName, correlationId.ToString()))
             {
                 await _next(context);
